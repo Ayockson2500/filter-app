@@ -1,0 +1,28 @@
+.input-field {
+    border: none;
+    outline: none;
+}
+.search-field {
+    border: 1px solid;
+    width: 50%;
+    border-radius: 25px;
+    padding: 5px;
+}
+.search-icon {
+    background: #F0F0F0;
+}
+.display-none {
+    display: none;
+}
+.dataItem {
+    text-decoration: none;
+    color: black;
+}
+.itemsDiplay {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: scroll;
+}
+.clear-input {
+    cursor: pointer;
+}
